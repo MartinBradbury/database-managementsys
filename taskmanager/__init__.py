@@ -12,7 +12,6 @@ if os.environ.get("DEVELOPMENT") == "True":
 else:
      app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DATABASE_URL")
 
-
 app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL")
 if os.environ.get("DEVELOPMENT") == "True":
      app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL")
